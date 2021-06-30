@@ -43,7 +43,7 @@ namespace Porygon {
         public Project(TomlTable cfg) {
             Name = cfg["name"];
             Images = new List<Image>();
-            TargetFilename = cfg["target"];
+            TargetFilename = cfg["output"];
 
             if (cfg["compress"] == "lz77") {
                 Compression = Compression.Lz77;
@@ -108,7 +108,7 @@ namespace Porygon {
                         if (!BitConverter.IsLittleEndian) {
                             Array.Reverse(lol);
                         }
-                        int size = image_data.Length / (8*8 / (Bits(image.PaletteSize - 1) / 8));
+                        int size = image_data.Length / (8*8 / (Bits(image.PaletteSize - 1)) / 8);
                         temp = BitConverter.GetBytes(size);
                         if (!BitConverter.IsLittleEndian) {
                             Array.Reverse(temp);
