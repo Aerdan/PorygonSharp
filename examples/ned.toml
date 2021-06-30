@@ -1,7 +1,7 @@
 # Name of the project. Required, but used only for reference.
-name = "NED"
+name = "CHONK"
 # Target filename. Required.
-output = "ned.gba"
+output = "Final_Fantasy_5_Advance (modified).gba"
 # Target platform. Required.
 system = "gba"
 # Image compression format. Default: 'none'
@@ -21,19 +21,19 @@ palette_format = "RGBA5551"
 # Images to be converted and inserted
 [[image]]
 # Name of the image. Required, but used only for reference.
-name    = "Neo Exdeath (right)"
+name    = "CHONK(right)"
 # Filename for the image.
-file    = "ned1.png"
+file    = "NeoExChonk1.png"
 # Pointer to the image.
 graphic = 0x131A00
 # Palette location.
 palette = 0x2140D4
 # Where the graphic data itself should be stored. -1 means EOF.
-target  = 0x900000
+target  = 0x800000
 
 [[image]]
-name    = "Neo Exdeath (left)"
-file    = "ned2.png"
+name    = "CHONK(left)"
+file    = "NeoExChonk2.png"
 graphic = 0x131A08
 palette = 0x214F10
-Target  = -1
+target  = -1

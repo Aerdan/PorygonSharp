@@ -4,3 +4,11 @@ obj/
 *.exe
 *.dll
 *.pdb
+/.vs
+/Porygon/.vs/Porygon
+/examples/ff5a.gba
+/Porygon/Properties/launchSettings.json
+/examples/PorygonTest.ips
+/examples/peekDump.txt
+/examples/Final_Fantasy_5_Advance (modified).gba
+/Porygon.sln
