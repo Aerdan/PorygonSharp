@@ -72,7 +72,7 @@ namespace Porygon {
             PaletteSize = cfg["palette_size"];
             Target      = cfg["target"];
 
-            BaseFilename = cfg["filename"];
+            BaseFilename = cfg["file"];
             frags = BaseFilename.Split(".");
 
             Bitmap = new Bitmap(BaseFilename);

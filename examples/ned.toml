@@ -23,7 +23,7 @@ palette_format = "RGBA5551"
 # Name of the image. Required, but used only for reference.
 name    = "CHONK(right)"
 # Filename for the image.
-filename    = "NeoExChonk1.png"
+file    = "NeoExChonk1.png"
 # Pointer to the image.
 graphic = 0x131A00
 # Palette location.
@@ -33,7 +33,7 @@ target  = 0x900000
 
 [[image]]
 name    = "CHONK(left)"
-filename    = "NeoExChonk2.png"
+file    = "NeoExChonk2.png"
 graphic = 0x131A08
 palette = 0x214F10
 target  = -1
