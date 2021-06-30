@@ -51,13 +51,13 @@ namespace Porygon {
             string[] frags;
             Name = cfg["name"];
             
-            if (cfg["format"] == "GBA-4BPP") {
+            if (cfg["graphic_format"] == "GBA-4BPP") {
                 Format = BitmapFormat.GBA4BPP;
-            } else if (cfg["format"] == "GB") {
+            } else if (cfg["graphic_format"] == "GB") {
                 Format = BitmapFormat.GB;
-            } else if (cfg["format"] == "GBA-8BPP") {
+            } else if (cfg["graphic_format"] == "GBA-8BPP") {
                 Format = BitmapFormat.GBA8BPP;
-            } else if (cfg["format"] == "NDSTEX5") {
+            } else if (cfg["graphic_format"] == "NDSTEX5") {
                 Format = BitmapFormat.NDSTEX5;
             } else {
                 Console.WriteLine("Warning: unrecognized target format; ignoring.");

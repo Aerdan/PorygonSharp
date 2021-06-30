@@ -29,7 +29,7 @@ graphic = 0x131A00
 # Palette location.
 palette = 0x2140D4
 # Where the graphic data itself should be stored. -1 means EOF.
-target  = 0x900000
+target  = 0x800000
 
 [[image]]
 name    = "CHONK(left)"
